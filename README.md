@@ -12,3 +12,8 @@ bikeshare.py
 
 ### Credits
 Thanks a lot for the original repo provided by **Udacity**
+
+A special thanks goes to:
+* Richard Kalehoff
+* Juno Lee
+* Sebastian Thrun
