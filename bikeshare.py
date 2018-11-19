@@ -8,6 +8,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 """
 Iterating through city data in order to get a list of available cities to be checked in get_filters
+Files are not included in Github and need to be sourced additionally
 Returns: List of cities
 """
 
