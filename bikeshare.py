@@ -151,7 +151,7 @@ def station_stats(df):
     common_end_station = df['End Station'].mode()[0]
     print('\nThe most common used end station is: ',common_end_station)
     # TO DO: display most frequent combination of start station and end station trip
-    common_station_combination = df['station_combination'].mode()[0]
+    common_station_combination = df.groupby(['c2', 'c3']).count().idxmax()
     print('\nThe most common station combination is: ',common_station_combination)
   # data.groupby(['Year', 'Department'])['Salary'].sum()
 
